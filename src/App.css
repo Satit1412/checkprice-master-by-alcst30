@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,84 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.flex {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.item-descr {
+  display: block;
+  box-sizing: border-box;
+  height: 25vh;
+  width: 100%;
+  top: 0;
+  font-size: 5vw;
+  font-weight: 600;
+  padding-top: 3vh;
+}
+
+.item-price {
+  display: block;
+  box-sizing: border-box;
+  height: 50vh;
+  width: 100%;
+  font-size: 20vw;
+  font-weight: bold;
+  line-height: 50vh;
+  cursor: none;
+}
+
+.spanprice {
+  position: absolute;
+  padding-left: 5vw;
+}
+
+.item-art {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  height: 17vh;
+  width: 100%;
+  text-align: left;
+  padding: 0 4vw;
+}
+
+#lblart {
+  font-size: 3vw;
+  font-weight: 600;
+  line-height: 15vh;
+}
+
+.item-lastupdate {
+  display: flex;
+  width: calc(100vw - 4vw);
+  height: 5vh;
+  line-height: 5vh;
+  text-align: right;
+  padding: 0 0 0 4vw;
+  font-size: 3vh;
+  padding-bottom: 3vh;
+}
+
+.maininput {
+  width: 20vw;
+  padding: 1vw;
+  border-width: 0px;
+  background-color: transparent;
+}
+
+input:focus {
+  outline: none;
+}
+
+.form {
+  display: flex;
 }
