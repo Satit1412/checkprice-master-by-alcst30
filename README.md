@@ -3,5 +3,3 @@
 ## contact me 
 
 Email : satitsomsangium@gmail.com
-
-## Available Scripts 
